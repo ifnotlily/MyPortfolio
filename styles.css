@@ -160,7 +160,7 @@
   .about-flex-container {
     display: flex;
     flex-direction: column;
-    margin-left: 12px;
+
   }
 
   .name {
@@ -221,11 +221,12 @@
     grid-column-start: 1;
     grid-row-end: 2;
     grid-column-end: 5;
+    background: url(images/SnapshootPortfolio.png) no-repeat;
+    background-size: cover;
     position: static;
     width: auto;
-    height: 220px;
+    height: 250px;
     border-radius: 8px;
-    margin-bottom: 55px;
   }
 
   #item-1 {
@@ -294,6 +295,10 @@
     line-height: 16px;
     letter-spacing: 0.03em;
     color: #6070ff;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 50px;
   }
 
   #item-5 {
@@ -355,11 +360,12 @@
     grid-column-start: 1;
     grid-row-end: 2;
     grid-column-end: 5;
+    background: url(images/SnapshootPortfolio2.png) no-repeat;
+    background-size: cover;
     position: static;
     width: auto;
-    height: 220px;
+    height: 250px;
     border-radius: 8px;
-    margin-bottom: 55px;
   }
 
   #itemb-1 {
@@ -369,7 +375,7 @@
     grid-column-end: 3;
     position: static;
     width: 295px;
-    height: 36px;
+    height: 76px;
     left: 20px;
     font-style: normal;
     font-weight: bold;
@@ -421,14 +427,18 @@
     grid-column-end: 2;
     position: static;
     height: 16px;
-    left: 20px;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
     color: #6070ff;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 50px;
   }
+
 
   #itemb-5 {
     grid-row-start: 5;
@@ -489,11 +499,12 @@
     grid-column-start: 1;
     grid-row-end: 2;
     grid-column-end: 5;
+    background: url(images/SnapshootPortfolio3.png) no-repeat;
+    background-size: cover;
     position: static;
     width: auto;
-    height: 220px;
+    height: 250px;
     border-radius: 8px;
-    margin-bottom: 55px;
   }
 
   #itemc-1 {
@@ -555,13 +566,16 @@
     grid-column-end: 2;
     position: static;
     height: 16px;
-    left: 20px;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
     color: #6070ff;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 50px;
   }
 
   #itemc-5 {
@@ -623,11 +637,12 @@
     grid-column-start: 1;
     grid-row-end: 2;
     grid-column-end: 5;
+    background: url(images/SnapshootPortfolio4.png) no-repeat;
+    background-size: cover;
     position: static;
     width: auto;
-    height: 220px;
+    height: 250px;
     border-radius: 8px;
-    margin-bottom: 55px;
   }
 
   #itemd-1 {
@@ -637,7 +652,7 @@
     grid-column-end: 3;
     position: static;
     width: 295px;
-    height: 36px;
+    height: 76px;
     left: 20px;
     font-style: normal;
     font-weight: bold;
@@ -689,13 +704,16 @@
     grid-column-end: 2;
     position: static;
     height: 16px;
-    left: 20px;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
     color: #6070ff;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 50px;
   }
 
   #itemd-5 {
@@ -833,7 +851,6 @@
     padding: 4px 12px;
     position: static;
     border-radius: 8px;
-    background: #ebebff;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -845,12 +862,14 @@
   .button1 {
     width: 53px;
     height: 24px;
+    margin-right: 20px;
   }
 
   .button2 {
     width: 45px;
     height: 24px;
     left: 61px;
+    margin-right: 20px;
   }
 
   .button3 {
@@ -939,7 +958,7 @@
     background-color: #fff;
     cursor: pointer;
     padding: 12px;
-    width: 100%;
+    width: auto;
     text-align: left;
     border: none;
     outline: none;
@@ -956,11 +975,20 @@
     text-decoration: none;
   }
 
+  .my-accordion ul .submenu a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .my-accordion ul {
+    margin-left: -2rem;
+  }
+
   .my-accordion .submenu {
     background-color: #f7f7f9;
     cursor: pointer;
     padding: 12px;
-    width: 100%;
+    width: 327px;
     text-align: left;
     border: none;
     outline: none;
