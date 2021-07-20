@@ -268,10 +268,23 @@
 
     </section>
    <section class="contactform">
-   <div class="container">
-     
-   </div>
-
+   <div class="container"></div>
+    <div class="content-form">
+       <h3>Contact me</h3>
+       <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+       <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+        <fieldset id="fs-frm-inputs">
+          <input type="text" name="name" id="full-name" placeholder="Full name" required="">
+          <input type="email" name="_replyto" id="email-address" placeholder="Email address" required="">
+          <textarea rows="5" name="message" id="message" placeholder="Enter text here" required=""></textarea>
+          <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+        </fieldset>
+        <input type="submit" value="Get in touch">
+      </form>
+      
+    </div>
+   
+    
    </section>
 
 </body>
