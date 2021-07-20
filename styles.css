@@ -1054,4 +1054,20 @@
     border: none;
     border-radius: 0;
   }
+
+  .contactform {
+    width: 375px;
+    height: 779px;
+    background: #6070FF;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    border-radius: 0 0 0 70px;
+    
+  }
+  .container{
+    background-image: url(/images/contact\ form\ shapes-mobile@2x.png);
+    width: 375px;
+    height: 500px;   
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
