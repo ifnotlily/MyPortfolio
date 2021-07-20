@@ -272,12 +272,12 @@
       <h3>Contact me</h3>
       <p>If you have an application you are interested in developing, a feature that you need built or a project that
         needs coding. I’d love to help with it </p>
-      <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="#"
-        method="post">
+      <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{fs-frm}"
+        method="POST">
         <fieldset id="fs-frm-inputs">
-          <input type="text" name="name" id="full-name" placeholder="Full name" required="">
+          <input type="text" name="name" id="full-name" placeholder="Full name" maxlength="30" required>
           <input type="email" name="_replyto" id="email-address" placeholder="Email address" required="">
-          <textarea rows="5" name="message" id="message" placeholder="Enter text here" required=""></textarea>
+          <textarea rows="5" name="message" id="message" placeholder="Enter text here" maxlength="500" required></textarea>
           <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
         </fieldset>
         <input type="submit" value="Get in touch" class="submit-button">
