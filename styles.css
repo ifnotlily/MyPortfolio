@@ -1059,15 +1059,32 @@
     width: 375px;
     height: 779px;
     background: #6070FF;
-    transform: matrix(1, 0, 0, -1, 0, 0);
-    border-radius: 0 0 0 70px;
+    border-radius: 70px 0 0 0;
     
   }
   .container{
     background-image: url(/images/contact\ form\ shapes-mobile@2x.png);
-    width: 375px;
-    height: 500px;   
-    background-size: cover;
+    width: 275px;
+    height: 714px;
+    background-size: contain;
     background-repeat: no-repeat;
+    margin-left: 9rem;
+  }
+  .contactform .content-form h3 {
+    color: #ffff;
+    font-size: 40px;
+    line-height: 52px;
+    font-family: 'Poppins';
+    margin-top: -39rem;
+    text-align: center;
+  }
+
+  .contactform .content-form p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    margin: 20px;
+    color: #ffff;
   }
 }
