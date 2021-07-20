@@ -1058,9 +1058,8 @@
   .contactform {
     width: 375px;
     height: 779px;
-    background: #6070FF;
+    background: #6070ff;
     border-radius: 70px 0 0 0;
-
   }
 
   .container {
@@ -1076,7 +1075,6 @@
     color: #ffff;
     font-size: 40px;
     line-height: 52px;
-    font-family: 'Poppins';
     margin-top: -39rem;
     text-align: center;
   }
@@ -1109,29 +1107,25 @@
 
   #fs-frm-inputs input {
     width: 270px;
-    border: 1px;
-    background: #FFFFFF;
-    border: 1px solid #CFD8DC;
+    background: #fff;
+    border: 1px solid #cfd8dc;
     border-radius: 8px;
     height: 28px;
   }
 
   #fs-frm-inputs textarea {
     width: 270px;
-    border: 1px;
-    background: #FFFFFF;
-    border: 1px solid #CFD8DC;
+    background: #fff;
+    border: 1px solid #cfd8dc;
     border-radius: 8px;
-
   }
 
   #fs-frm .submit-button {
     position: absolute;
     width: 140px;
     height: 48px;
-    background: #FFFFFF;
+    background: #fff;
     border-radius: 8px;
-    font-family: Poppins;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
