@@ -70,7 +70,6 @@ ul.topnav li.dropdownIcon {
   display: flex;
   align-items: center;
   color: #172b4d;
-  margin-top: 30px;
 }
 
 .description {
@@ -846,19 +845,6 @@ ul.topnav li.dropdownIcon {
   text-decoration: none;
 }
 
-.my-accordion ul .submenu a {
-  text-decoration: none;
-  color: black;
-}
-
-.my-accordion ul .submenu {
-  display: inline;
-}
-
-.my-accordion ul {
-  margin-left: -2rem;
-}
-
 .my-accordion .submenu {
   background-color: #f7f7f9;
   cursor: pointer;
@@ -878,6 +864,19 @@ ul.topnav li.dropdownIcon {
   align-items: center;
   color: #000;
   text-decoration: none;
+}
+
+.my-accordion ul .submenu a {
+  text-decoration: none;
+  color: black;
+}
+
+.my-accordion ul .submenu {
+  display: inline;
+}
+
+.my-accordion ul {
+  margin-left: -2rem;
 }
 
 .my-accordion .open {
@@ -953,7 +952,6 @@ ul.topnav li.dropdownIcon {
   width: 98%;
   text-align: center;
   line-height: 28px;
-  text-align: center;
   color: #ffff;
 }
 
@@ -1253,22 +1251,18 @@ ul.topnav li.dropdownIcon {
 
   .natureimg {
     display: none;
-
   }
 
   .natureimg-b {
     display: none;
-
   }
 
   .natureimg-c {
     display: none;
-
   }
 
   .natureimg-d {
     display: none;
-
   }
 
   .section-grid {
@@ -1279,7 +1273,6 @@ ul.topnav li.dropdownIcon {
     grid-template-rows: auto auto auto auto auto auto;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-
 
   #item-0 {
     grid-row-start: 1;
