@@ -34,29 +34,10 @@ body {
   color: #6070ff;
 }
 
-#cssmenu {
-  margin-right: 3rem;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-}
-
-#cssmenu ul li {
-  display: inline;
-  float: right;
-  margin-right: 20px;
-}
-
-#cssmenu ul li a {
-  text-decoration: none;
-}
-
 ul.topnav li.dropdownIcon {
   display: block;
   float: right;
 }
-
 
 .about-flex-container {
   display: flex;
@@ -97,19 +78,17 @@ ul.topnav li.dropdownIcon {
   width: 327px;
   height: 146px;
   margin-left: 5%;
-  width: 600px;
   margin-top: 20px;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-
 }
 
 .connectt {
   position: static;
   width: 137px;
-  margin-left: 30px;
+  margin-left: 5%;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -120,14 +99,13 @@ ul.topnav li.dropdownIcon {
   display: flex;
   flex-direction: row;
   width: 190px;
-  margin-left: 5px;
+  margin-left: 3%;
   list-style-type: none;
   justify-content: space-between;
   margin-bottom: 30px;
 }
 
 .nature-section {
-  height: 450px;
   background: #fff;
   width: 98%;
   height: 700px;
@@ -389,8 +367,6 @@ ul.topnav li.dropdownIcon {
   color: #396df2;
 }
 
-
-
 #itemb-1 {
   grid-row-start: 2;
   grid-column-start: 1;
@@ -641,8 +617,6 @@ ul.topnav li.dropdownIcon {
   margin-bottom: 44px;
 }
 
-
-
 #itemd-1 {
   grid-row-start: 2;
   grid-column-start: 1;
@@ -789,7 +763,6 @@ ul.topnav li.dropdownIcon {
   margin-bottom: 30px;
 }
 
-
 .namee {
   position: static;
   width: 327px;
@@ -815,17 +788,6 @@ ul.topnav li.dropdownIcon {
   line-height: 24px;
   color: #344563;
   margin: 12px;
-}
-
-.connectt {
-  position: static;
-  width: 137px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  margin-top: 60px;
-  color: #7f8cff;
-  margin-bottom: 15px;
 }
 
 .buttonresume {
@@ -944,6 +906,23 @@ ul.topnav li.dropdownIcon {
   display: none;
 }
 
+#cssmenu {
+  margin-right: 3rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+#cssmenu ul li {
+  display: inline;
+  float: right;
+  margin-right: 20px;
+}
+
+#cssmenu ul li a {
+  text-decoration: none;
+}
 
 .contactform {
   width: 100%;
@@ -1182,14 +1161,12 @@ ul.topnav li.dropdownIcon {
     color: #6070ff;
   }
 
-
   .headersec {
     background: url(images/Headerbg.svg) no-repeat;
     background-size: auto 100%;
     border: 0;
     background-color: #fff;
     border-radius: 0 0 0 0;
-    margin-left: 0;
     line-height: 1;
     margin-bottom: 30px;
     margin-left: 0;
@@ -1212,8 +1189,6 @@ ul.topnav li.dropdownIcon {
     margin-left: 5px;
     width: 300px;
   }
-
-
 
   .name {
     position: static;
@@ -1314,7 +1289,7 @@ ul.topnav li.dropdownIcon {
     background: url(/images/SnapshootPortfolio.png) no-repeat;
     background-size: cover;
     position: static;
-    background-color: none;
+    background-color: transparent;
     width: auto;
     height: 250px;
     border-radius: 8px;
@@ -2090,24 +2065,7 @@ ul.topnav li.dropdownIcon {
     width: 100%;
     text-decoration: none;
   }
-
-  .my-accordion ul .submenu a {
-    text-decoration: none;
-    color: black;
-  }
-
-  .my-accordion ul .submenu {
-    display: block;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    float: left;
-  }
-
-  .my-accordion ul {
-    margin-left: -2rem;
-  }
-
+  
   .my-accordion .submenu {
     background-color: #f7f7f9;
     cursor: pointer;
@@ -2127,6 +2085,23 @@ ul.topnav li.dropdownIcon {
     align-items: center;
     color: #000;
     text-decoration: none;
+  }
+
+  .my-accordion ul .submenu a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .my-accordion ul .submenu {
+    display: block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+  }
+
+  .my-accordion ul {
+    margin-left: -2rem;
   }
 
   .my-accordion .open {
