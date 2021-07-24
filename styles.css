@@ -1028,12 +1028,6 @@ ul.topnav li.dropdownIcon {
   color: #fff;
 }
 
-#fs-frm .submit-button :active {
-  background: #2230d2;
-  border-radius: 8px;
-  color: #fff;
-}
-
 @media screen and (max-width: 899px) and (min-width: 681px) {
   body {
     font-family: "Poppins", sans-serif;
