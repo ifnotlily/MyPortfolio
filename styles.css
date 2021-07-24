@@ -2044,8 +2044,8 @@ ul.topnav li.dropdownIcon {
   }
 
   .my-accordion .panel {
-    background-color: #fff;
-    color: #000;
+    background-color:#fff;
+    color:#000;
     overflow: hidden;
   }
 
@@ -2058,7 +2058,7 @@ ul.topnav li.dropdownIcon {
     width: 100%;
     text-decoration: none;
   }
-  
+
   .my-accordion .submenu {
     background-color: #f7f7f9;
     cursor: pointer;
@@ -2161,7 +2161,7 @@ ul.topnav li.dropdownIcon {
     line-height: 28px;
     text-align: center;
     margin: 20px;
-    color: #ffff;
+    color: #fff;
   }
 
   .contactform .content-form #fs-frm {
