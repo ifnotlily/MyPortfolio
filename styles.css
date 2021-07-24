@@ -126,7 +126,6 @@ ul.topnav li.dropdownIcon {
   margin-left: 5px;
   margin-top: 5px;
 }
-
 .section-grid {
   display: grid;
   margin-left: 5%;
@@ -137,7 +136,15 @@ ul.topnav li.dropdownIcon {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-
+.sectionb-grid {
+  display: grid;
+  margin-left: 20px;
+  width: auto;
+  background-color: #fff;
+  height: 450px;
+  grid-template-rows: auto auto auto auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
 .natureimg-b {
   width: 550px;
@@ -940,7 +947,7 @@ ul.topnav li.dropdownIcon {
 }
 
 .container {
-  background-image: url(./images/contact\ form\ shapes-mobile@2x.png);
+  background-image: url(./images/contact\form\shapes-mobile@2x.png);
   width: 98%;
   height: 714px;
   background-size: cover;
@@ -968,11 +975,10 @@ ul.topnav li.dropdownIcon {
 }
 
 .contactform .content-form #fs-frm {
-  width: 80px;
+  width: 98%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: left;
   text-align: center;
 }
 
@@ -980,7 +986,7 @@ ul.topnav li.dropdownIcon {
   text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items:  center;
   border-style: none;
   row-gap: 10px;
 }
@@ -1001,7 +1007,7 @@ ul.topnav li.dropdownIcon {
 }
 
 #fs-frm .submit-button {
-  width: 150px;
+  width: 15%;
   margin: 0 auto;
   height: 48px;
   background-color: #fff;
@@ -1161,6 +1167,16 @@ ul.topnav li.dropdownIcon {
     display: grid;
     margin-left: 5%;
     width: 70%;
+    background-color: #fff;
+    height: 450px;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .sectionb-grid {
+    display: grid;
+    margin-left: 20px;
+    width: auto;
     background-color: #fff;
     height: 450px;
     grid-template-rows: auto auto auto auto auto auto;
@@ -1994,8 +2010,8 @@ ul.topnav li.dropdownIcon {
   }
 
   .contactform .content-form #fs-frm {
-    position: absolute;
     width: 98%;
+    margin: 0 auto;
     align-self: center;
     margin-left: 40px;
     text-align: center;
@@ -2195,7 +2211,7 @@ ul.topnav li.dropdownIcon {
 
   .sectionb-grid {
     display: grid;
-    margin-left: 12%;
+    margin-left: 20px;
     width: auto;
     background-color: #fff;
     height: 450px;
@@ -3030,8 +3046,8 @@ ul.topnav li.dropdownIcon {
   }
 
   .contactform .content-form #fs-frm {
-    position: absolute;
     width: 98%;
+    margin: 0 auto;
     align-self: center;
     margin-left: 40px;
     text-align: center;
