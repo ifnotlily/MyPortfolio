@@ -22,7 +22,7 @@ body {
   height: 20px;
   left: 12px;
   top: 10px;
-  font-style: normal;
+  font-style: l;
   font-weight: bold;
   font-size: 18px;
   line-height: 20px;
@@ -31,7 +31,7 @@ body {
   margin-left: 10%;
   text-align: center;
   text-decoration: none;
-  color: #6070ff;
+  color: #142cff;
 }
 
 ul.topnav li.dropdownIcon {
@@ -91,7 +91,7 @@ ul.topnav li.dropdownIcon {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8cff;
+  color: #1a30ff;
 }
 
 .social-icons {
@@ -243,7 +243,7 @@ ul.topnav li.dropdownIcon {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #142cff;
   display: flex;
   text-decoration: none;
   list-style: none;
@@ -263,7 +263,7 @@ ul.topnav li.dropdownIcon {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #142cff;
 }
 
 #item-6 {
@@ -279,7 +279,7 @@ ul.topnav li.dropdownIcon {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #142cff;
   margin-bottom: 44px;
 }
 
@@ -325,7 +325,7 @@ ul.topnav li.dropdownIcon {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #142cff;
   border: 2px;
 }
 
@@ -336,7 +336,7 @@ ul.topnav li.dropdownIcon {
   text-align: center;
   border: 1px;
   border-style: solid;
-  border-color: #6070ff;
+  border-color: #142cff;
 }
 
 .button2 {
@@ -346,7 +346,7 @@ ul.topnav li.dropdownIcon {
   text-align: center;
   border: 1px;
   border-style: solid;
-  border-color: #6070ff;
+  border-color: #142cff;
 }
 
 .button3 {
@@ -355,7 +355,7 @@ ul.topnav li.dropdownIcon {
   border: 1px;
   text-align: center;
   border-style: solid;
-  border-color: #6070ff;
+  border-color: #142cff;
 }
 
 .buttonproject {
@@ -442,7 +442,7 @@ ul.topnav li.dropdownIcon {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #142cff;
   display: flex;
   text-decoration: none;
   list-style: none;
@@ -462,7 +462,7 @@ ul.topnav li.dropdownIcon {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #142cff;
 }
 
 #itemb-6 {
@@ -478,7 +478,7 @@ ul.topnav li.dropdownIcon {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #142cff;
   margin-bottom: 44px;
 }
 
@@ -568,7 +568,7 @@ ul.topnav li.dropdownIcon {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #142cff;
   display: flex;
   text-decoration: none;
   list-style: none;
@@ -588,7 +588,7 @@ ul.topnav li.dropdownIcon {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #142cff;
 }
 
 #itemc-6 {
@@ -604,7 +604,7 @@ ul.topnav li.dropdownIcon {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #142cff;
   margin-bottom: 44px;
 }
 
@@ -694,7 +694,7 @@ ul.topnav li.dropdownIcon {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #142cff;
   display: flex;
   text-decoration: none;
   list-style: none;
@@ -714,7 +714,7 @@ ul.topnav li.dropdownIcon {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #142cff;
 }
 
 #itemd-6 {
@@ -730,7 +730,7 @@ ul.topnav li.dropdownIcon {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #142cff;
   margin-bottom: 44px;
 }
 
@@ -940,7 +940,7 @@ ul.topnav li.dropdownIcon {
 .contactform {
   width: 100%;
   height: 779px;
-  background: #6070ff;
+  background: #142cff;
   border-radius: 70px 0 0 0;
   display: flex;
   flex-direction: column;
@@ -986,10 +986,17 @@ ul.topnav li.dropdownIcon {
 .contactform .content-form #fs-frm-inputs {
   text-align: center;
   display: flex;
+  width: 60%;
+  margin: 0 auto;
   flex-direction: column;
   align-items: center;
-  border-style: none;
+  border-style: solid;
   row-gap: 10px;
+  color: #fff;
+  }
+
+#fs-frm-inputs label {
+  color: #fff;
 }
 
 #fs-frm-inputs input {
@@ -1016,14 +1023,14 @@ ul.topnav li.dropdownIcon {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: #6070ff;
-  border: 1px solid #7f8cff;
+  color: #142cff;
+  border: 1px solid #1a30ff;
   border-radius: 8px;
   letter-spacing: 0.03em;
 }
 
 #fs-frm .submit-button :hover {
-  background: #6070ff;
+  background: #142cff;
   border-radius: 8px;
   color: #fff;
 }
@@ -1068,7 +1075,7 @@ ul.topnav li.dropdownIcon {
     margin-left: 10%;
     text-align: center;
     text-decoration: none;
-    color: #6070ff;
+    color: #142cff;
   }
 
   ul.topnav li.dropdownIcon {
@@ -1128,7 +1135,7 @@ ul.topnav li.dropdownIcon {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #7f8cff;
+    color: #1a30ff;
   }
 
   .social-icons {
@@ -1280,7 +1287,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
     display: flex;
     text-decoration: none;
     list-style: none;
@@ -1300,7 +1307,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
   }
 
   #item-6 {
@@ -1316,7 +1323,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
     margin-bottom: 44px;
   }
 
@@ -1362,7 +1369,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
     border: 2px;
   }
 
@@ -1373,7 +1380,7 @@ ul.topnav li.dropdownIcon {
     text-align: center;
     border: 1px;
     border-style: solid;
-    border-color: #6070ff;
+    border-color: #142cff;
   }
 
   .button2 {
@@ -1383,7 +1390,7 @@ ul.topnav li.dropdownIcon {
     text-align: center;
     border: 1px;
     border-style: solid;
-    border-color: #6070ff;
+    border-color: #142cff;
   }
 
   .button3 {
@@ -1392,7 +1399,7 @@ ul.topnav li.dropdownIcon {
     border: 1px;
     text-align: center;
     border-style: solid;
-    border-color: #6070ff;
+    border-color: #142cff;
   }
 
   .buttonproject {
@@ -1479,7 +1486,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
     display: flex;
     text-decoration: none;
     list-style: none;
@@ -1499,7 +1506,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
   }
 
   #itemb-6 {
@@ -1515,7 +1522,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
     margin-bottom: 44px;
   }
 
@@ -1605,7 +1612,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
     display: flex;
     text-decoration: none;
     list-style: none;
@@ -1625,7 +1632,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
   }
 
   #itemc-6 {
@@ -1641,7 +1648,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
     margin-bottom: 44px;
   }
 
@@ -1731,7 +1738,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
     display: flex;
     text-decoration: none;
     list-style: none;
@@ -1751,7 +1758,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
   }
 
   #itemd-6 {
@@ -1767,7 +1774,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
     margin-bottom: 44px;
   }
 
@@ -1977,7 +1984,7 @@ ul.topnav li.dropdownIcon {
   .contactform {
     width: 100%;
     height: 779px;
-    background: #6070ff;
+    background: #142cff;
     border-radius: 70px 0 0 0;
     display: flex;
     flex-direction: column;
@@ -2021,10 +2028,13 @@ ul.topnav li.dropdownIcon {
   .contactform .content-form #fs-frm-inputs {
     text-align: center;
     display: flex;
+    width: 60%;
+    margin: 0 auto;
     flex-direction: column;
     align-items: center;
-    border-style: none;
+    border-style: solid;
     row-gap: 10px;
+    color: #fff;
   }
 
   #fs-frm-inputs input {
@@ -2051,14 +2061,14 @@ ul.topnav li.dropdownIcon {
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-    color: #6070ff;
-    border: 1px solid #7f8cff;
+    color: #142cff;
+    border: 1px solid #1a30ff;
     border-radius: 8px;
     letter-spacing: 0.03em;
   }
 
   #fs-frm .submit-button :hover {
-    background: #6070ff;
+    background: #142cff;
     border-radius: 8px;
     color: #fff;
   }
@@ -2104,7 +2114,7 @@ ul.topnav li.dropdownIcon {
     margin-left: 10%;
     text-align: center;
     text-decoration: none;
-    color: #6070ff;
+    color: #142cff;
   }
 
   ul.topnav li.dropdownIcon {
@@ -2164,7 +2174,7 @@ ul.topnav li.dropdownIcon {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #7f8cff;
+    color: #1a30ff;
   }
 
   .social-icons {
@@ -2316,7 +2326,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
     display: flex;
     text-decoration: none;
     list-style: none;
@@ -2336,7 +2346,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
   }
 
   #item-6 {
@@ -2352,7 +2362,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
     margin-bottom: 44px;
   }
 
@@ -2398,7 +2408,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
     border: 2px;
   }
 
@@ -2409,7 +2419,7 @@ ul.topnav li.dropdownIcon {
     text-align: center;
     border: 1px;
     border-style: solid;
-    border-color: #6070ff;
+    border-color: #142cff;
   }
 
   .button2 {
@@ -2419,7 +2429,7 @@ ul.topnav li.dropdownIcon {
     text-align: center;
     border: 1px;
     border-style: solid;
-    border-color: #6070ff;
+    border-color: #142cff;
   }
 
   .button3 {
@@ -2428,7 +2438,7 @@ ul.topnav li.dropdownIcon {
     border: 1px;
     text-align: center;
     border-style: solid;
-    border-color: #6070ff;
+    border-color: #142cff;
   }
 
   .buttonproject {
@@ -2515,7 +2525,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
     display: flex;
     text-decoration: none;
     list-style: none;
@@ -2535,7 +2545,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
   }
 
   #itemb-6 {
@@ -2551,7 +2561,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
     margin-bottom: 44px;
   }
 
@@ -2641,7 +2651,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
     display: flex;
     text-decoration: none;
     list-style: none;
@@ -2661,7 +2671,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
   }
 
   #itemc-6 {
@@ -2677,7 +2687,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
     margin-bottom: 44px;
   }
 
@@ -2767,7 +2777,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
     display: flex;
     text-decoration: none;
     list-style: none;
@@ -2787,7 +2797,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
   }
 
   #itemd-6 {
@@ -2803,7 +2813,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
     margin-bottom: 44px;
   }
 
@@ -3013,7 +3023,7 @@ ul.topnav li.dropdownIcon {
   .contactform {
     width: 100%;
     height: 779px;
-    background: #6070ff;
+    background: #142cff;
     border-radius: 70px 0 0 0;
     display: flex;
     flex-direction: column;
@@ -3057,10 +3067,13 @@ ul.topnav li.dropdownIcon {
   .contactform .content-form #fs-frm-inputs {
     text-align: center;
     display: flex;
+    width: 60%;
+    margin: 0 auto;
     flex-direction: column;
     align-items: center;
-    border-style: none;
+    border-style: solid;
     row-gap: 10px;
+    color: #fff;
   }
 
   #fs-frm-inputs input {
@@ -3087,14 +3100,14 @@ ul.topnav li.dropdownIcon {
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-    color: #6070ff;
-    border: 1px solid #7f8cff;
+    color: #142cff;
+    border: 1px solid #1a30ff;
     border-radius: 8px;
     letter-spacing: 0.03em;
   }
 
   #fs-frm .submit-button :hover {
-    background: #6070ff;
+    background: #142cff;
     border-radius: 8px;
     color: #fff;
   }
@@ -3247,7 +3260,7 @@ ul.topnav li.dropdownIcon {
     align-items: center;
     text-align: center;
     text-decoration: none;
-    color: #6070ff;
+    color: #142cff;
   }
 
   .headersec {
@@ -3313,7 +3326,7 @@ ul.topnav li.dropdownIcon {
     font-size: 16px;
     line-height: 24px;
     margin-top: 60px;
-    color: #7f8cff;
+    color: #1a30ff;
   }
 
   .social-icons {
@@ -3452,7 +3465,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
     display: flex;
     text-decoration: none;
     list-style: none;
@@ -3472,7 +3485,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
   }
 
   #item-6 {
@@ -3488,7 +3501,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
     margin-bottom: 44px;
   }
 
@@ -3590,7 +3603,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
     display: flex;
     text-decoration: none;
     list-style: none;
@@ -3610,7 +3623,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
   }
 
   #itemb-6 {
@@ -3626,7 +3639,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
     margin-bottom: 44px;
   }
 
@@ -3728,7 +3741,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
     display: flex;
     text-decoration: none;
     list-style: none;
@@ -3748,7 +3761,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
   }
 
   #itemc-6 {
@@ -3764,7 +3777,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
     margin-bottom: 44px;
   }
 
@@ -3866,7 +3879,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
     display: flex;
     text-decoration: none;
     list-style: none;
@@ -3886,7 +3899,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
   }
 
   #itemd-6 {
@@ -3902,7 +3915,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
     margin-bottom: 44px;
   }
 
@@ -4013,7 +4026,7 @@ ul.topnav li.dropdownIcon {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #142cff;
     border: 2px;
   }
 
@@ -4024,7 +4037,7 @@ ul.topnav li.dropdownIcon {
     text-align: center;
     border: 1px;
     border-style: solid;
-    border-color: #6070ff;
+    border-color: #142cff;
   }
 
   .button2 {
@@ -4034,7 +4047,7 @@ ul.topnav li.dropdownIcon {
     text-align: center;
     border: 1px;
     border-style: solid;
-    border-color: #6070ff;
+    border-color: #142cff;
   }
 
   .button3 {
@@ -4043,7 +4056,7 @@ ul.topnav li.dropdownIcon {
     border: 1px;
     text-align: center;
     border-style: solid;
-    border-color: #6070ff;
+    border-color: #142cff;
   }
 
   .buttonproject {
@@ -4099,7 +4112,7 @@ ul.topnav li.dropdownIcon {
     font-size: 16px;
     line-height: 24px;
     margin-top: 60px;
-    color: #7f8cff;
+    color: #1a30ff;
     margin-bottom: 15px;
   }
 
@@ -4234,7 +4247,7 @@ ul.topnav li.dropdownIcon {
   .contactform {
     width: 375px;
     height: 779px;
-    background: #6070ff;
+    background: #142cff;
     border-radius: 70px 0 0 0;
   }
 
@@ -4276,10 +4289,13 @@ ul.topnav li.dropdownIcon {
   .contactform .content-form #fs-frm-inputs {
     text-align: center;
     display: flex;
+    width: 60%;
+    margin: 0 auto;
     flex-direction: column;
     align-items: center;
-    border-style: none;
+    border-style: solid;
     row-gap: 10px;
+    color: #fff;
   }
 
   #fs-frm-inputs input {
@@ -4306,14 +4322,14 @@ ul.topnav li.dropdownIcon {
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-    color: #6070ff;
-    border: 1px solid #7f8cff;
+    color: #142cff;
+    border: 1px solid #1a30ff;
     border-radius: 8px;
     letter-spacing: 0.03em;
   }
 
   #fs-frm .submit-button :hover {
-    background: #6070ff;
+    background: #142cff;
     border-radius: 8px;
     color: #fff;
   }
