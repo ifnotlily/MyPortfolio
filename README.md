@@ -36,11 +36,16 @@ Clone this repository
 
 ## Authors
 
-👤 **Author1**
+👤 **Lilian**
 
 - GitHub: [@ifnotlily](https://github.com/ifnotlily)
 - Twitter: [@ifnotlily](https://twitter.com/ifnotlily)
 - LinkedIn: [lilian-francis](https://linkedin.com/in/lilian-francis)
+
+👤 **paka**
+
+- GitHub: [@githubhandle](https://github.com/OLIPLICHE)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/olipliche-paka-mavoungou/)
 
 
 ## 🤝 Contributing
