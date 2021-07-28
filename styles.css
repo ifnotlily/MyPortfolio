@@ -22,7 +22,7 @@ body {
   height: 20px;
   left: 12px;
   top: 10px;
-  font-style: l;
+  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 20px;
@@ -993,7 +993,7 @@ ul.topnav li.dropdownIcon {
   border-style: solid;
   row-gap: 10px;
   color: #fff;
-  }
+}
 
 #fs-frm-inputs label {
   color: #fff;
